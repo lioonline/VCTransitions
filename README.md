@@ -8,12 +8,12 @@ TransitionsDemo
 
 
 
+```
 -(NSTimeInterval)transitionDuration:(id<UIViewControllerContextTransitioning>)transitionContext {
     return 0.8f;
 }
 
 - (void)animateTransition:(id <UIViewControllerContextTransitioning>)transitionContext {
-- 
       //  1、取出要跳转到的 VC
 
     UIViewController *toVC = [transitionContext viewControllerForKey:UITransitionContextToViewControllerKey];
@@ -50,3 +50,5 @@ TransitionsDemo
                          [transitionContext completeTransition:YES];
                      }];
     
+
+```
