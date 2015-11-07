@@ -3,10 +3,11 @@ TransitionsDemo
 
 
 
-![image](./vc.gif)
+![image](./vc.gif)  ![image](vcs.gif)
 
 
 
+动画示例：
 
 ```
 -(NSTimeInterval)transitionDuration:(id<UIViewControllerContextTransitioning>)transitionContext {
